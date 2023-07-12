@@ -213,6 +213,10 @@ body {
     padding: 10px 32px;
 }
 
+.main-effect-button:hover,
+.main-effect-button:focus {
+    background-color: #404BBF ;
+}
 
 /* третя секція */
 .qualities-list {
@@ -234,7 +238,7 @@ body {
 }
 
 .group::before {
-    background-image: url(../images/SVG/Group.svg);
+    background-image: url(../images/SVG/antenna.svg);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -791,7 +795,7 @@ body {
     justify-content: center;
     width: 44px;
     height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--primary-brand);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -805,7 +809,7 @@ body {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-    background-color: var(--primary-brand );
+    background-color: #31D0AA;
 }
 
 
@@ -830,7 +834,7 @@ body {
     border-radius: 4px;
     background-color: #2F303A;
     outline: none;
-    width: 265px;
+    width: 310px;
     height: 50px;
     padding-left: 12px;
     padding-right: 12px;
