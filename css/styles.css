@@ -731,8 +731,10 @@ body {
 
 .page-footer-contacts {
     display: flex;
+    width: 270px;
+    flex-shrink: 0;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .footer-logo {
@@ -747,26 +749,14 @@ body {
     margin-bottom: 20px;
 }
 
-.page-footer-adress {
-    color: #ffffff;
-    display: inline-block;
-    margin-bottom: 10px;
-    font-family: 'Roboto';
+.footer-slogan {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-
-.footer-tel {
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.footer-tel, .footer-mail {
-    color: rgba(255, 255, 255, 0.6);
-    margin-right: 0;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .footer-socials {
@@ -783,7 +773,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .footer-social-list {
     display: flex;
@@ -840,7 +830,7 @@ body {
     border-radius: 4px;
     background-color: #2F303A;
     outline: none;
-    width: 400px;
+    width: 265px;
     height: 50px;
     padding-left: 12px;
     padding-right: 12px;
