@@ -158,11 +158,11 @@ body {
 
 
 /* друга секція */
-.main {
+/* .main {
     width: 100%;
-}
+} */
 
-.main-effect {
+ /* .main-effect {
     background-color: #2F303A;
     width: 100%;
     text-align: center;
@@ -185,9 +185,9 @@ body {
 .main .main-effect {
     padding: 200px 0;
     min-height: 600px;
-}
+} */
 
-.main-effect-title {
+/* .main-effect-title {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -195,7 +195,7 @@ body {
     letter-spacing: 0.06em;
     color: #ffffff;
     margin-bottom: 40px;
-}
+} */
 
 .main-effect-button {
     font-family: 'Roboto';
@@ -203,7 +203,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    min-width: 170px;
+    min-width: 165px;
     height: 50px;
     color: #ffffff;
     background-color: var(--primary-brand );
@@ -216,7 +216,7 @@ body {
 .main-effect-button:hover,
 .main-effect-button:focus {
     background-color: #404BBF ;
-}
+} 
 
 /* третя секція */
 /* .qualities-list {
@@ -720,7 +720,7 @@ body {
 
 
 /* футер */
-.page-footer {
+/* .page-footer {
     display: flex;
     background-color: #2f303a;
     width: 100%;
@@ -728,19 +728,21 @@ body {
 }
 
 .page-footer .container {
+    min-width: 1158px;
     padding: 60px 15px;
     display: flex;
-}
+} */
 
-.page-footer-contacts {
+/* .page-footer-contacts {
     display: flex;
-    width: 270px;
+    width: 264px;
     flex-shrink: 0;
     flex-direction: column;
-    gap: 5px;
-}
+    margin-right: 120px;
+    
+} */
 
-.footer-logo {
+/* .footer-logo {
     color: #ffffff;
     font-family: 'Raleway';
     font-weight: 700;
@@ -750,9 +752,9 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 20px;
-}
+} */
 
-.footer-slogan {
+/* .footer-slogan {
     color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -760,15 +762,15 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-}
+} */
 
-.footer-socials {
+/* .footer-socials {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-}
+     margin-right: 80px; 
+} */
 
-.footer-headline {
+/* .footer-headline {
     color: #ffffff;
     font-family: 'Roboto';
     font-style: normal;
@@ -776,9 +778,9 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    /* text-transform: uppercase; */
-}
-.footer-social-list {
+    text-transform: uppercase;
+} */
+/* .footer-social-list {
     display: flex;
     list-style: none;
     margin-top: 20px;
@@ -814,12 +816,11 @@ body {
 
 .footer-social-icon {
     fill: #ffffff;
-}
+} */
 
-.footer-subscribe {
+/* .footer-subscribe {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
 }
 
 .footer-subscribe-form {
@@ -833,7 +834,7 @@ body {
     border-radius: 4px;
     background-color: #2F303A;
     outline: none;
-    width: 310px;
+    width: 265px;
     height: 50px;
     padding-left: 12px;
     padding-right: 12px;
@@ -841,24 +842,27 @@ body {
 
 .footer-email:focus {
     background-color: #ffffff;
-}
+} */
 
-.email-submit {
+/* .email-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 200px;
+    width: 170px;
     height: 50px;
     padding: 10px 42px 10px 14px;
-    margin-left: 8px;
-}
+   
+} */
 
-.footer-email-send {
+/* .footer-email-send {
     position: absolute;
     right: 28px;
     top: 50%;
     transform: translateY(-50%);
     width: 24px;
     height: inherit;
-}
+} */
 
 
 
@@ -927,7 +931,7 @@ body {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    max-width: 370px;
+    max-width: 366px;
    
 }
 
