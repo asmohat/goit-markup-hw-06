@@ -35,7 +35,7 @@ body {
     padding: 96px 0;
 } */
 
-.header-content {
+/* .header-content {
     display: flex;
     align-items: center;
     align-content: center;
@@ -101,17 +101,17 @@ body {
     height: 5px;
     background-color: var(--primary-brand );
     border-radius: 2px;
-}
+} */
 
 
-.contacts {
+/* .contacts {
     display: flex;
     margin-left: auto;
     align-items: center;
     align-content: center;
-}
+} */
 
-.tel {
+/* .tel {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
@@ -120,9 +120,9 @@ body {
     color: var(--article-color);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.tel-icon {
+/* .tel-icon {
     width: 12px;
     height: 16px;
     margin-right: 10px;
@@ -154,7 +154,7 @@ body {
 
 .tel:hover, .tel:focus {
     color: var(--primary-brand );
-}
+} */
 
 
 /* друга секція */
@@ -197,7 +197,7 @@ body {
     margin-bottom: 40px;
 } */
 
-.main-effect-button {
+/* .main-effect-button {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -216,7 +216,7 @@ body {
 .main-effect-button:hover,
 .main-effect-button:focus {
     background-color: #404BBF ;
-} 
+}  */
 
 /* третя секція */
 /* .qualities-list {
